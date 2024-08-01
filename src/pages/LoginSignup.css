@@ -1,0 +1,192 @@
+/* src/pages/LoginSignup.css */
+
+
+
+   /* .auth-container {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.auth-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.google-signin-button {
+  background-color: #db4437;
+  margin-top: 20px;
+}
+
+.google-signin-button:hover {
+  background-color: #c23321;
+}
+
+.toggle-signup {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.toggle-button {
+  background: none;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+}
+
+.toggle-button:hover {
+  text-decoration: underline;
+} */
+
+/* LoginSignup.css */
+
+/* General Container Styling */
+.auth-container {
+  padding: 40px;
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+}
+
+.auth-container h2 {
+  text-align: center;
+  color: #333;
+  font-size: 32px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+/* Form Group Styling */
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  box-sizing: border-box;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.form-group input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
+  outline: none;
+}
+
+/* Button Styling */
+button {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  background-color: #007bff;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+button:active {
+  background-color: #004085;
+  transform: translateY(0);
+}
+
+/* Google Sign-In Button Styling */
+.google-signin-button {
+  background-color: #4285f4;
+  margin-top: 20px;
+  padding: 14px;
+  border-radius: 8px;
+}
+
+.google-signin-button:hover {
+  background-color: #357ae8;
+  transform: translateY(-2px);
+}
+
+.google-signin-button:active {
+  background-color: #2a56c6;
+  transform: translateY(0);
+}
+
+/* Toggle Signup/Login Styling */
+.toggle-signup {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.toggle-signup p {
+  color: #666;
+  font-size: 14px;
+}
+
+.toggle-button {
+  background: none;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 5px;
+  transition: color 0.3s, text-decoration 0.3s;
+}
+
+.toggle-button:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+

@@ -1,0 +1,47 @@
+/* src/pages/ProjectsPage.css */
+
+.projects-page {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .projects-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .project-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    border-radius: 8px;
+  }
+  
+  .project-card h3 {
+    margin-top: 0;
+  }
+  
+  .project-card p {
+    margin: 5px 0;
+  }
+  
+  .project-actions {
+    margin-top: 15px;
+  }
+  
+  .project-actions button {
+    margin: 5px;
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .project-actions button:hover {
+    background-color: #45a049;
+  }
+  

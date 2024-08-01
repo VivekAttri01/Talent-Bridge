@@ -1,0 +1,87 @@
+/* src/pages/WhyTalentBridgePage.css */
+/* .why-talentbridge-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .why-talentbridge-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .why-talentbridge-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .feature {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .feature h2 {
+    margin-top: 0;
+  }
+  
+  .feature p {
+    margin: 0;
+  }
+   */
+
+   /* WhyTalentBridgePage.css */
+
+.why-talentbridge-container {
+  padding: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+}
+
+.why-talentbridge-container h1 {
+  text-align: center;
+  color: #333;
+  font-size: 36px;
+  margin-bottom: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.why-talentbridge-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.feature {
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.feature:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.feature h2 {
+  margin-top: 0;
+  color: #007bff;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.feature p {
+  color: #555;
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0;
+}

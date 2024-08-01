@@ -1,0 +1,130 @@
+
+
+.landing-page {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  text-align: center;
+  padding: 0 20px;
+  background-color: #f0f4f8; 
+}
+
+.hero {
+  background-color: #007BFF; 
+  color: white;
+  padding: 50px 0;
+  border-bottom: 5px solid #0056b3; 
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+}
+
+.cta-button {
+  background-color: #0056b3; 
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  border-radius: 5px; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cta-button:hover {
+  background-color: #004080; 
+  transform: translateY(-2px); 
+}
+
+.features, .about, .testimonials, .cta {
+  padding: 50px 20px;
+}
+
+.features h2, .about h2, .testimonials h2, .cta h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #1a3f64; 
+}
+
+.features-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px; 
+}
+
+.feature {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  width: 30%;
+  margin: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.feature:hover {
+  background-color: #f1f1f1;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1); 
+}
+
+.feature h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #0056b3; 
+}
+
+.feature p {
+  font-size: 1em;
+}
+
+.about p {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.2em;
+  line-height: 1.6; 
+}
+
+.testimonials-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px; 
+}
+
+.testimonial {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  width: 45%;
+  margin: 10px;
+  font-size: 1.1em;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.testimonial p {
+  margin: 10px 0;
+}
+
+.cta {
+  background-color: #007BFF; 
+  color: white;
+  padding: 50px 0;
+  border-top: 5px solid #0056b3; 
+}
+
+.cta h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+}
